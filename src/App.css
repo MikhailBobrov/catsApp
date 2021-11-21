@@ -1,0 +1,19 @@
+.user {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ant-layout-header,
+.ant-layout-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  min-height: 100px;
+  color: #fff;
+  background: #7dbcea;
+}

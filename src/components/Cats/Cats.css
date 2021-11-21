@@ -1,0 +1,31 @@
+.site-card-border-less-wrapper {
+  position: relative;
+  padding: 15px;
+  background: #ececec;
+  margin: 10px;
+  background-color: rgb(200, 230, 231);
+}
+
+.delete_button {
+  position: absolute;
+  top: 18px;
+  left: 256px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-card-border-less-wrapper {
+  padding: 5px;
+}
+
+.button-div {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}

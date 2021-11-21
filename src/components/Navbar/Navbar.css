@@ -1,0 +1,10 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar__item {
+  padding-left: 10px;
+  text-decoration: none;
+  color: #fff;
+}

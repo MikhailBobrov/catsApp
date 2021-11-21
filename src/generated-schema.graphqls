@@ -1,0 +1,36 @@
+scalar Date
+
+input CatCreate {
+  name: String!
+  age: Int!
+  mood: Int
+  birthDate: Date!
+  gender: Boolean!
+}
+
+input CatUpdate {
+  name: String
+  age: Int
+  mood: Int
+  birthDate: Date
+  gender: Boolean
+}
+
+type Cat {
+  name: String!
+  age: Int!
+  mood: Int
+  birthDate: Date!
+  gender: Boolean!
+}
+
+type Query {
+  cats: [Cat!]!
+  cat(name: String!): Cat
+}
+
+type Mutation {
+  addCat(cat: CatCreate!): Cat
+  removeCat(name: String!): Boolean!
+  updateCat(name: String, cat: CatUpdate!): Cat
+}
